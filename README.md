@@ -2,11 +2,7 @@
 
 > Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
 
----
-
-# NeetCode Solutions in Go (Golang)
-
-My personal repository for tracking progress and solutions for NeetCode problems, written completely in Go.
+> My personal repository for tracking progress and solutions for NeetCode problems, written completely in Go.
 
 ## 🚀 Progress Tracker
 
