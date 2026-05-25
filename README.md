@@ -15,6 +15,6 @@
 | **Arrays & Hashing** | Top K Frequent Elements | $O(n)$ | $O(n)$ | bucket sort by frequency count. |
 | **Arrays & Hashing** | Encode and Decode String | $O(n)$ | $O(n)$ | Add length and delimiter to decoded array. |
 | **Arrays & Hashing** | Product of Array Except Self | $O(n)$ | $O(n)$ | Two-pass Prefix & Suffix running products. |
-| **Two Pointers** | Is Valid Palindrome | $O(n)$ | $O(n)$ | Alphanumeric check with `unicode.isLetter/Digit` (force type to rune). |
+| **Two Pointers** | Is Valid Palindrome | $O(n)$ | $O(1)$ | Alphanumeric check with `unicode.isLetter/Digit` (force type to rune). |
 
 > *Total Solved: 8 / 150*
