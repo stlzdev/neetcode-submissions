@@ -25,4 +25,7 @@
 | Problem | Notes/Key Concepts |
 | :--- | :--- |
 | **Design Leetcode** | Code Execution (Serverless, API, VM, Container), RT Web Communication (Websockets vs SSE vs Polling), Redis sorted set for in-memory frequent updates with ZSET and skip lists |
+| **Design URL Shortener** | Redis with cache libraries, using MachineID+Sequence as unique ID, base62 for conversion, sharding with machine ID |
+
+> *Total Solved: 2 / 19*
 
