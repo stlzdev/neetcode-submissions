@@ -18,9 +18,9 @@
 | Two Pointers | **Is Valid Palindrome** | $O(n)$ | $O(1)$ | Alphanumeric check with `unicode.isLetter/Digit` (force type to rune). |
 | Two Pointers | **Two Sum II** | $O(n)$ | $O(1)$ | Two pointer more space-efficient than hash map for sorted array. |
 | Two Pointers | **Three Sum** | $O(n)$ | $O(1)$ | Nested for loop implementing Two Sum II for each element after sorting. |
+| Sliding Window | **Best Time to Buy and Sell Stock** | $O(n)$ | $O(1)$ | Use pointer to indicate min value, max diff is global. |
 
-
-> *Total Solved: 10 / 150*
+> *Total Solved: 11 / 150*
 
 > Systems Design
 
