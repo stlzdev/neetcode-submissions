@@ -2,9 +2,7 @@
 
 > My personal repository for tracking progress and solutions for NeetCode problems.
 
-## 🚀 Progress Tracker
-
-> Data Structures and Algorithms (in Go)
+## 🧩 Data Structures and Algorithms (in Go)
 
 | Category | Problem | Time | Space | Notes / Key Concepts |
 | :--- | :--- | :---: | :---: | :--- |
@@ -22,7 +20,7 @@
 
 > *Total Solved: 11 / 150*
 
-> Systems Design
+## ⚙️ Systems Design
 
 | Problem | Notes/Key Concepts |
 | :--- | :--- |
