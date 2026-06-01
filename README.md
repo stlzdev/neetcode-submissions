@@ -19,8 +19,9 @@
 | Sliding Window | **Best Time to Buy and Sell Stock** | $O(n)$ | $O(1)$ | Use pointer to indicate min value, max diff is global. |
 | Sliding Window | **Longest Substring without Repeating Characters** | $O(n)$ | $O(m)$ | Move lpt until no repeating in hashmap |
 | Sliding Window | **Longest Repeating Character Replacement** | $O(n)$ | $O(m)$ | Most freq el in window only updates new el. For loop increment lpt until replacements < k |
+| Sliding Window | **Permutation in String** | $O(n)$ | $O(1)$ | Compare s1 alphabet freq array to each sliding window freq array from s2. |
 
-> *Total Solved: 13 / 150*
+> *Total Solved: 14 / 150*
 
 ## ⚙️ Systems Design
 
