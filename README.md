@@ -31,6 +31,7 @@
 | :--- | :--- |
 | **Design Leetcode** | Code Execution (Serverless, API, VM, Container), RT Web Communication (Websockets vs SSE vs Polling), Redis sorted set for in-memory frequent updates with ZSET and skip lists |
 | **Design URL Shortener** | Redis with cache libraries, using MachineID+Sequence as unique ID, base62 for conversion, sharding with machine ID |
+| **Design Webhook** | Use message queue for buffering, retain idempotency keys for 30 days to preserve uniqueness, HMAC signature, IP whitelisting and rate limiting for security. |
 
-> *Total Solved: 2 / 19*
+> *Total Solved: 3 / 19*
 
