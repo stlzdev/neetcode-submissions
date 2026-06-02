@@ -21,8 +21,9 @@
 | Sliding Window | **Longest Repeating Character Replacement** | $O(n)$ | $O(m)$ | Most freq el in window only updates new el. For loop increment lpt until replacements < k |
 | Sliding Window | **Permutation in String** | $O(n)$ | $O(1)$ | Compare s1 alphabet freq array to each sliding window freq array from s2. |
 | Stack | **Valid Parentheses** | $O(n)$ | $O(n)$ | Use map[rune]rune to encode matching parentheses. Pop from stack when match. |
+| Stack | **Min Stack** | $O(1)$ | $O(n)$ | Create constructor with custom type, use min stack to track min at any point. |
 
-> *Total Solved: 15 / 150*
+> *Total Solved: 16 / 150*
 
 ## ⚙️ Systems Design
 
