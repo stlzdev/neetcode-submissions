@@ -25,7 +25,7 @@
 | Stack | **Evaluate Reverse Polish Notation** | $O(n)$ | $O(n)$ | Use strconv.Atoi to convert from str to int. |
 | Stack | **Binary Search** | $O(log n)$ | $O(1)$ | prevent int overflow when calculating mid. |
 
-> *Total Solved: 17 / 150*
+> *Total Solved: 18 / 150*
 
 ## ⚙️ Systems Design
 
