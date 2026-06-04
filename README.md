@@ -23,6 +23,7 @@
 | Stack | **Valid Parentheses** | $O(n)$ | $O(n)$ | Use map[rune]rune to encode matching parentheses. Pop from stack when match. |
 | Stack | **Min Stack** | $O(1)$ | $O(n)$ | Create constructor with custom type, use min stack to track min at any point. |
 | Stack | **Evaluate Reverse Polish Notation** | $O(n)$ | $O(n)$ | Use strconv.Atoi to convert from str to int. |
+| Stack | **Binary Search** | $O(log n)$ | $O(1)$ | prevent int overflow when calculating mid. |
 
 > *Total Solved: 17 / 150*
 
