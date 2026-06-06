@@ -37,5 +37,5 @@
 | **Design URL Shortener** | Redis with cache libraries, using MachineID+Sequence as unique ID, base62 for conversion, sharding with machine ID |
 | **Design Webhook** | Use message queue for buffering, retain idempotency keys for 30 days to preserve uniqueness, HMAC signature, IP whitelisting and rate limiting for security. | 
 
-> *Total Solved: 3 / 19*
+> *Total Solved: 3 / 55*
 
