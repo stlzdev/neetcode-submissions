@@ -29,7 +29,7 @@
 | Binary Search | **Finding Minimum in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | Update lpt to m+1 instead of m. |
 | Binary Search | **Search in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | At anyh time, one half of array is sorted. |
 
-> *Total Solved: 21 / 150*
+> *Total Solved: 22 / 150*
 
 ## ⚙️ Systems Design
 
