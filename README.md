@@ -27,7 +27,7 @@
 | Binary Search | **Search a 2D Matrix**| $O( log (mn))$ | $O(1)$ | use div-mod within function, no need helper func. |
 | Binary Search | **Koko Eating Bananas** | $O(nlog m)$ | $O(1)$ | $$\left\lceil \frac{val}{m} \right\rceil = \left\lfloor \frac{val + m - 1}{m} \right\rfloor$$, manual max of array. |
 | Binary Search | **Finding Minimum in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | Update lpt to m+1 instead of m. |
-| Binary Search | **Search in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | At anyh time, one half of array is sorted. |
+| Binary Search | **Search in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | At any time, one half of array is sorted. |
 
 > *Total Solved: 22 / 150*
 
