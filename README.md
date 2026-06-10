@@ -39,6 +39,7 @@
 | **Design Leetcode** | Code Execution (Serverless, API, VM, Container), RT Web Communication (Websockets vs SSE vs Polling), Redis sorted set for in-memory frequent updates with ZSET and skip lists |
 | **Design URL Shortener** | Redis with cache libraries, using MachineID+Sequence as unique ID, base62 for conversion, sharding with machine ID |
 | **Design Webhook** | Use message queue for buffering, retain idempotency keys for 30 days to preserve uniqueness, HMAC signature, IP whitelisting and rate limiting for security. | 
+| **Design Yelp** | Efficient geo-search with Elastic Search / PostGreSQL + PostGIS; Dual write vs CDC (with costs) for search-store consistency; UX read from primary + optimistic display. | 
 
-> *Total Solved: 3 / 55*
+> *Total Solved: 4 / 55*
 
