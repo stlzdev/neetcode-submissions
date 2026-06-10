@@ -28,8 +28,9 @@
 | Binary Search | **Koko Eating Bananas** | $O(nlog m)$ | $O(1)$ | $$\left\lceil \frac{val}{m} \right\rceil = \left\lfloor \frac{val + m - 1}{m} \right\rfloor$$, manual max of array. |
 | Binary Search | **Finding Minimum in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | Update lpt to m+1 instead of m. |
 | Binary Search | **Search in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | At any time, one half of array is sorted. |
+| Linked List | **Reverse Linked List** | $O(n)$ | $O(1)$ | Declare nil with type, e.g. `(*ListNode)(nil)`. Use curr, next (temp), prev pointers. |
 
-> *Total Solved: 22 / 150*
+> *Total Solved: 23 / 150*
 
 ## ⚙️ Systems Design
 
