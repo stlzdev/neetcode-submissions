@@ -31,8 +31,9 @@
 | Linked List | **Reverse Linked List** | $O(n)$ | $O(1)$ | Declare nil with type, e.g. `(*ListNode)(nil)`. Use next (temp), prev=curr, curr=next pointers. |
 | Linked List | **Merge Two Sorted Lists** | $O(n)$ | $O(1)$ | Dummy variable `&ListNode{}`, assign as curr. Iterate pointer as min of two array add to Next. |
 | Linked List | **Linked List Cycle** | $O(n)$ | $O(1)$ | Fast-slow pointer, gap between pointers always decrease by 1, max at length so time $O(n)$ bounded. |
+| Linked List | **Reorder Linked List** | $O(n)$ | $O(1)$ | FS pointer + reverse 2nd half + dual merge, second half starts at `slow.Next`. |
 
-> *Total Solved: 25 / 150*
+> *Total Solved: 26 / 150*
 
 ## ⚙️ Systems Design
 
