@@ -23,6 +23,7 @@
 | Stack | **Valid Parentheses** | $O(n)$ | $O(n)$ | Use map[rune]rune to encode matching parentheses. Pop from stack when match. |
 | Stack | **Min Stack** | $O(1)$ | $O(n)$ | Create constructor with custom type, use min stack to track min at any point. |
 | Stack | **Evaluate Reverse Polish Notation** | $O(n)$ | $O(n)$ | Use strconv.Atoi to convert from str to int. |
+| Stack | **Daily Temperatures** | $O(n)$ | $O(n)$ | Stack of idxs to keep track of days since highest temp. |
 | Binary Search | **Binary Search** | $O(log n)$ | $O(1)$ | prevent int overflow when calculating mid. |
 | Binary Search | **Search a 2D Matrix**| $O( log (mn))$ | $O(1)$ | use div-mod within function, no need helper func. |
 | Binary Search | **Koko Eating Bananas** | $O(nlog m)$ | $O(1)$ | $$\left\lceil \frac{val}{m} \right\rceil = \left\lfloor \frac{val + m - 1}{m} \right\rfloor$$, manual max of array. |
@@ -34,7 +35,7 @@
 | Linked List | **Reorder Linked List** | $O(n)$ | $O(1)$ | FS pointer + reverse 2nd half + dual merge, second half starts at `slow.Next`. |
 | Linked List | **Remove Nth Node from End of List** | $O(n)$ | $O(1)$ | Two pointers diff by n, then use `second.Next = second.Next.Next` to remove node. |
 
-> *Total Solved: 27 / 150*
+> *Total Solved: 28 / 150*
 
 ## ⚙️ Systems Design
 
