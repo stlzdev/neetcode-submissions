@@ -34,8 +34,9 @@
 | Linked List | **Linked List Cycle** | $O(n)$ | $O(1)$ | Fast-slow pointer, gap between pointers always decrease by 1, max at length so time $O(n)$ bounded. |
 | Linked List | **Reorder Linked List** | $O(n)$ | $O(1)$ | FS pointer + reverse 2nd half + dual merge, second half starts at `slow.Next`. |
 | Linked List | **Remove Nth Node from End of List** | $O(n)$ | $O(1)$ | Two pointers diff by n, then use `second.Next = second.Next.Next` to remove node. |
+| Linked List | **Copy Linked List with Random Pointer** | $O(n)$ | $O(n)$ | Two rounds of hmap, first for storing values, second for getting next & random pointers with old node.next/random as idx. |
 
-> *Total Solved: 28 / 150*
+> *Total Solved: 29 / 150*
 
 ## ⚙️ Systems Design
 
