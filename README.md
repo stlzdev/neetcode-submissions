@@ -46,6 +46,7 @@
 | **Design URL Shortener** | Redis with cache libraries, using MachineID+Sequence as unique ID, base62 for conversion, sharding with machine ID |
 | **Design Webhook** | Use message queue for buffering, retain idempotency keys for 30 days to preserve uniqueness, HMAC signature, IP whitelisting and rate limiting for security. | 
 | **Design Yelp** | Efficient geo-search with Elastic Search / PostGreSQL + PostGIS; Dual write vs CDC (with costs) for search-store consistency; UX read from primary + optimistic display. | 
+| **Design Rate Limiter** | Gateway/Edge with state sharing, extract per API/IP/tenant, token bucket algo, same counter in Redis. |
 
-> *Total Solved: 4 / 55*
+> *Total Solved: 5 / 55*
 
