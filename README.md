@@ -35,8 +35,9 @@
 | Linked List | **Reorder Linked List** | $O(n)$ | $O(1)$ | FS pointer + reverse 2nd half + dual merge, second half starts at `slow.Next`. |
 | Linked List | **Remove Nth Node from End of List** | $O(n)$ | $O(1)$ | Two pointers diff by n, then use `second.Next = second.Next.Next` to remove node. |
 | Linked List | **Copy Linked List with Random Pointer** | $O(n)$ | $O(n)$ | Two rounds of hmap, first for storing values, second for getting next & random pointers with old node.next/random as idx. |
+| Linked List | **Add Two Numbers** | $O(n)$ | $O(1)$ | Use dummy and curr pointer, addition carry over logic and final digit edge case. |
 
-> *Total Solved: 29 / 150*
+> *Total Solved: 30 / 150*
 
 ## ⚙️ Systems Design
 
