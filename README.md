@@ -37,8 +37,9 @@
 | Linked List | **Copy Linked List with Random Pointer** | $O(n)$ | $O(n)$ | Two rounds of hmap, first for storing values, second for getting next & random pointers with old node.next/random as idx. |
 | Linked List | **Add Two Numbers** | $O(n)$ | $O(1)$ | Use dummy and curr pointer, addition carry over logic and final digit edge case. |
 | Linked List | **LRU Cache** | $O(n)$ | $O(n)$ | Doubly-linked list (`head`, `tail` pointers), delete + insert helpers for handling linked list re-pointing. |
+| Trees | **Invert Binary Tree** | $O(n)$ | $O(n)$ | Recursive, DFS explore and reverse left and right, base case return nil. |
 
-> *Total Solved: 31 / 150*
+> *Total Solved: 32 / 150*
 
 ## ⚙️ Systems Design
 
@@ -50,5 +51,5 @@
 | **Design Yelp** | Efficient geo-search with Elastic Search / PostGreSQL + PostGIS; Dual write vs CDC (with costs) for search-store consistency; UX read from primary + optimistic display. | 
 | **Design Rate Limiter** | Gateway/Edge with state sharing, extract per API/IP/tenant, token bucket algo, same counter in Redis. |
 
-> *Total Solved: 5 / 55*
+> *Total Solved: 5 / 19*
 
