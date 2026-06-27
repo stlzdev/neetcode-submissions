@@ -42,8 +42,9 @@
 | Trees | **Diameter of Binary Tree** | $O(n)$ | $O(n)$ | Recursive inner function that computes height, update max diameter of subtrees within function. | 
 | Trees | **Balanced Binary Tree** | $O(n)$ | $O(n)$ | height=-1 to flag violation, recursive balance check, increase height bottom-up. | 
 | Trees | **Same Binary Tree** | $O(n)$ | $O(n)$ | no helper function needed! |
+| Trees | **Subtree of Another Tree** | $O(mn)$ | $O(m+n) | recurse call isSameTree & isSubtree, compare each equal val root with subtree until base. |
 
-> *Total Solved: 36 / 150*
+> *Total Solved: 37 / 150*
 
 ## ⚙️ Systems Design
 
