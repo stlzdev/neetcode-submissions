@@ -40,8 +40,9 @@
 | Trees | **Invert Binary Tree** | $O(n)$ | $O(n)$ | Recursive, DFS explore and reverse left and right, base case return nil. |
 | Trees | **Maximum Depth of Binary Tree** | $O(n)$ | $O(n)$ | Can use BFS, iterative/recursive DFS, keep max depth count. |
 | Trees | **Diameter of Binary Tree** | $O(n)$ | $O(n)$ | Recursive inner function that computes height, update max diameter of subtrees within function. | 
+| Trees | **Balanced Binary Tree** | $O(n)$ | $O(n)$ | height=-1 to flag violation, recursive balance check, increase height bottom-up. | 
 
-> *Total Solved: 34 / 150*
+> *Total Solved: 35 / 150*
 
 ## ⚙️ Systems Design
 
