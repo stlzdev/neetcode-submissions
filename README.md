@@ -43,8 +43,10 @@
 | Trees | **Balanced Binary Tree** | $O(n)$ | $O(n)$ | height=-1 to flag violation, recursive balance check, increase height bottom-up. | 
 | Trees | **Same Binary Tree** | $O(n)$ | $O(n)$ | no helper function needed! |
 | Trees | **Subtree of Another Tree** | $O(mn)$ | $O(m+n) | recurse call isSameTree & isSubtree, compare each equal val root with subtree until base. |
+| Trees | **Lowest Common Ancestor** | $O(h)$ | $O(1)$ | simple logic. |
+| Trees | **Binary Tree Level Order Traversal** | $O(n)$ | $O(n)$ | define `out=[][]int`, `queue.Len()` to iterate through # nodes in level. |
 
-> *Total Solved: 37 / 150*
+> *Total Solved: 39 / 150*
 
 ## ⚙️ Systems Design
 
