@@ -45,8 +45,9 @@
 | Trees | **Subtree of Another Tree** | $O(mn)$ | $O(m+n) | recurse call isSameTree & isSubtree, compare each equal val root with subtree until base. |
 | Trees | **Lowest Common Ancestor** | $O(h)$ | $O(1)$ | simple logic. |
 | Trees | **Binary Tree Level Order Traversal** | $O(n)$ | $O(n)$ | define `out=[][]int`, `queue.Len()` to iterate through # nodes in level. |
+| Trees | **Binary Tree Right Side View** | $O(n)$ | $O(n)$ | BFS, store last node as var for each level. |
 
-> *Total Solved: 39 / 150*
+> *Total Solved: 40 / 150*
 
 ## ⚙️ Systems Design
 
