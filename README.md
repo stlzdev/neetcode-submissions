@@ -48,8 +48,9 @@
 | Trees | **Binary Tree Right Side View** | $O(n)$ | $O(n)$ | BFS, store last node as var for each level. |
 | Trees | **Count Good Nodes in Binary Tree** | $O(n)$ | $O(n)$ | DFS recursion, store max value so far on path. |
 | Trees | **Valid Binary Search Tree** | $O(n)$ | $O(n)$ | Use `math.MaxInt64/MinInt64` for infinite bounds. |
+| Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
 
-> *Total Solved: 42 / 150*
+> *Total Solved: 43 / 150*
 
 ## ⚙️ Systems Design
 
