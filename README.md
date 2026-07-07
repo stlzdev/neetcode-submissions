@@ -47,8 +47,9 @@
 | Trees | **Binary Tree Level Order Traversal** | $O(n)$ | $O(n)$ | define `out=[][]int`, `queue.Len()` to iterate through # nodes in level. |
 | Trees | **Binary Tree Right Side View** | $O(n)$ | $O(n)$ | BFS, store last node as var for each level. |
 | Trees | **Count Good Nodes in Binary Tree** | $O(n)$ | $O(n)$ | DFS recursion, store max value so far on path. |
+| Trees | **Valid Binary Search Tree** | $O(n)$ | $O(n)$ | Use `math.MaxInt64/MinInt64` for infinite bounds. |
 
-> *Total Solved: 41 / 150*
+> *Total Solved: 42 / 150*
 
 ## ⚙️ Systems Design
 
