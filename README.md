@@ -61,6 +61,7 @@
 | **Design Webhook** | Use message queue for buffering, retain idempotency keys for 30 days to preserve uniqueness, HMAC signature, IP whitelisting and rate limiting for security. | 
 | **Design Yelp** | Efficient geo-search with Elastic Search / PostGreSQL + PostGIS; Dual write vs CDC (with costs) for search-store consistency; UX read from primary + optimistic display. | 
 | **Design Rate Limiter** | Gateway/Edge with state sharing, extract per API/IP/tenant, token bucket algo, same counter in Redis. |
+| **Design Comment System** | Comment database (NoSQL) + user database (DBMS), sharding, Redis for cache, Time-to-Live indexes for deleting expired posts. |
 
-> *Total Solved: 5 / 19*
+> *Total Solved: 6 / 19*
 
