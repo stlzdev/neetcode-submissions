@@ -49,8 +49,9 @@
 | Trees | **Count Good Nodes in Binary Tree** | $O(n)$ | $O(n)$ | DFS recursion, store max value so far on path. |
 | Trees | **Valid Binary Search Tree** | $O(n)$ | $O(n)$ | Use `math.MaxInt64/MinInt64` for infinite bounds. |
 | Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
+| Trees | **Construct Binary Tree from Inorder & Preorder** | $O(n)$ | $O(n^2)$ | Use preorder to find inorder root idx, use inorder to partition preorder, recursive. |
 
-> *Total Solved: 43 / 150*
+> *Total Solved: 44 / 150*
 
 ## ⚙️ Systems Design
 
