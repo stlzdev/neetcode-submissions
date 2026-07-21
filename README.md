@@ -50,7 +50,7 @@
 | Trees | **Valid Binary Search Tree** | $O(n)$ | $O(n)$ | Use `math.MaxInt64/MinInt64` for infinite bounds. |
 | Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
 | Trees | **Construct Binary Tree from Inorder & Preorder** | $O(n)$ | $O(n^2)$ | Use preorder to find inorder root idx, use inorder to partition preorder, recursive. |
-| Trees | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor, then pushpop if new val larger. don't pop from minheap if less than k els (python) | 
+| Trees | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor. push always, pop if exceed k els (python) | 
 
 > *Total Solved: 45 / 150*
 
