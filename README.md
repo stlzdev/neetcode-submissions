@@ -51,8 +51,9 @@
 | Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
 | Trees | **Construct Binary Tree from Inorder & Preorder** | $O(n)$ | $O(n^2)$ | Use preorder to find inorder root idx, use inorder to partition preorder, recursive. |
 | Trees | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor. push always, pop if exceed k els (python) | 
+| Trees | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. |
 
-> *Total Solved: 45 / 150*
+> *Total Solved: 46 / 150*
 
 ## ⚙️ Systems Design
 
