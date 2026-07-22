@@ -50,11 +50,12 @@
 | Trees | **Valid Binary Search Tree** | $O(n)$ | $O(n)$ | Use `math.MaxInt64/MinInt64` for infinite bounds. |
 | Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
 | Trees | **Construct Binary Tree from Inorder & Preorder** | $O(n)$ | $O(n^2)$ | Use preorder to find inorder root idx, use inorder to partition preorder, recursive. |
-| Trees | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor. push always, pop if exceed k els (python) | 
-| Trees | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. |
-| Trees | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. |
+| Heaps | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor. push always, pop if exceed k els (python) | 
+| Heaps | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. |
+| Heaps | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. |
+| Heaps | **Kth Largest Element in List** | $O(n \log k)$ | $O(k)$ | min-heap / quick-select with partition. | 
 
-> *Total Solved: 46 / 150*
+> *Total Solved: 47 / 150*
 
 ## ⚙️ Systems Design
 
