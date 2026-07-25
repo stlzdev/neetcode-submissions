@@ -54,8 +54,9 @@
 | Heaps | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. |
 | Heaps | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. |
 | Heaps | **Kth Largest Element in List** | $O(n \log k)$ | $O(k)$ | min-heap / quick-select with partition. | 
+| Heaps | **Task Scheduler** | $O(m)$ | $O(1)$ | max heap and cooldown queue, int time to keep track of total time and cooldown time. |
 
-> *Total Solved: 47 / 150*
+> *Total Solved: 48 / 150*
 
 ## ⚙️ Systems Design
 
