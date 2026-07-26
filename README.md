@@ -51,12 +51,13 @@
 | Trees | **Kth Smallest Integer in BST** | $O(n)$ | $O(n)$ | Inorder traversal (left -> node -> right), `count++` per node. |
 | Trees | **Construct Binary Tree from Inorder & Preorder** | $O(n)$ | $O(n^2)$ | Use preorder to find inorder root idx, use inorder to partition preorder, recursive. |
 | Heaps | **Kth Largest Element in Stream** | $O(m \log k)$ | $O(k)$ | min-heap, take nlargest and heapify in constructor. push always, pop if exceed k els (python) | 
-| Heaps | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. |
-| Heaps | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. |
-| Heaps | **Kth Largest Element in List** | $O(n \log k)$ | $O(k)$ | min-heap / quick-select with partition. | 
-| Heaps | **Task Scheduler** | $O(m)$ | $O(1)$ | max heap and cooldown queue, int time to keep track of total time and cooldown time. |
+| Heaps | **Last Stone Weight** | $O(n \log n)$ | $O(n)$ | python heapq defaults minheap; use heapify_max, heappop_max etc. (python) |
+| Heaps | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. (python) |
+| Heaps | **Kth Largest Element in List** | $O(n \log k)$ | $O(k)$ | min-heap / quick-select with partition. (python) | 
+| Heaps | **Task Scheduler** | $O(m)$ | $O(1)$ | max heap and cooldown queue, int time to keep track of total time and cooldown time. (python) |
+| Heaps | **Subsets** | $O(n*2^n)$ | $O(2^n)$ | inner helper function, recursively build two paths, one with & one w/o current value. |
 
-> *Total Solved: 48 / 150*
+> *Total Solved: 49 / 150*
 
 ## ⚙️ Systems Design
 
