@@ -57,8 +57,9 @@
 | Heaps | **Task Scheduler** | $O(m)$ | $O(1)$ | max heap and cooldown queue, int time to keep track of total time and cooldown time. (python) |
 | Backtracking | **Subsets** | $O(n*2^n)$ | $O(2^n)$ | inner helper function, recursively build two paths, one with & one w/o current value. |
 | Backtracking | **Combination Sum** | $O(2^(t/m))$ | $O(t/m)$ | at each step, take or skip el, stop when equal or >, use ... to append two lists. |
+| Backtracking | **Combination Sum II** | $O(n*2^n)$ | $O(n)$ | sort first, two branches, loop to skip duplicates. |
 
-> *Total Solved: 50 / 150*
+> *Total Solved: 51 / 150*
 
 ## ⚙️ Systems Design
 
