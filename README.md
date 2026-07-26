@@ -55,9 +55,10 @@
 | Heaps | **K Closest Points to Origin** | $O(n \log k)$ | $O(k)$ | Use min-heap-reverse to store k closest points, pop max (most neg) when size >k. (python) |
 | Heaps | **Kth Largest Element in List** | $O(n \log k)$ | $O(k)$ | min-heap / quick-select with partition. (python) | 
 | Heaps | **Task Scheduler** | $O(m)$ | $O(1)$ | max heap and cooldown queue, int time to keep track of total time and cooldown time. (python) |
-| Heaps | **Subsets** | $O(n*2^n)$ | $O(2^n)$ | inner helper function, recursively build two paths, one with & one w/o current value. |
+| Backtracking | **Subsets** | $O(n*2^n)$ | $O(2^n)$ | inner helper function, recursively build two paths, one with & one w/o current value. |
+| Backtracking | **Combination Sum** | $O(2^(t/m))$ | $O(t/m)$ | at each step, take or skip el, stop when equal or >, use ... to append two lists. |
 
-> *Total Solved: 49 / 150*
+> *Total Solved: 50 / 150*
 
 ## ⚙️ Systems Design
 
