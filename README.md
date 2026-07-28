@@ -59,8 +59,9 @@
 | Backtracking | **Combination Sum** | $O(2^(t/m))$ | $O(t/m)$ | at each step, take or skip el, stop when equal or >, use ... to append two lists. |
 | Backtracking | **Combination Sum II** | $O(n*2^n)$ | $O(n)$ | sort first, two branches, loop to skip duplicates. |
 | Backtracking | **Permutations** | $O(n * n!)$ | $O(n)$ | bool array to store progress, reset bool for backtracking after recursion. |
+| Backtracking | **Subsets II** | $O(n * 2^n)$ | $O(n)$ | at each step, take or skip el, iterate for skip cond until next value reached. |
 
-> *Total Solved: 51 / 150*
+> *Total Solved: 52 / 150*
 
 ## ⚙️ Systems Design
 
