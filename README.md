@@ -62,8 +62,9 @@
 | Backtracking | **Subsets II** | $O(n * 2^n)$ | $O(n)$ | at each step, take or skip el, iterate for skip cond until next value reached. |
 | Backtracking | **Generate Parentheses** | $O(4^n / \sqrt(n))$ | $O(n)$ | condition on start < n, start > end, then append string with + "". |
 | Backtracking | **Word Search** | $O(m * 4^n)$ | $O(n)$ | mutate input board to mark path, then undo when backtracking. |
+| Backtracking | **Palindrome Partitioning** | $O(n*2^n)$ | $O(n)$ | backtrack, at each start idx, try every cut pt end, check if palindrome. |
 
-> *Total Solved: 54 / 150*
+> *Total Solved: 55 / 150*
 
 ## ⚙️ Systems Design
 
