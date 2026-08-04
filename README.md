@@ -63,9 +63,10 @@
 | Backtracking | **Generate Parentheses** | $O(4^n / \sqrt(n))$ | $O(n)$ | condition on start < n, start > end, then append string with + "". |
 | Backtracking | **Word Search** | $O(m * 4^n)$ | $O(n)$ | mutate input board to mark path, then undo when backtracking. |
 | Backtracking | **Palindrome Partitioning** | $O(n*2^n)$ | $O(n)$ | backtrack, at each start idx, try every cut pt end, check if palindrome. |
-| Backtracking | **Implement Trie** | $O(n)$ | $O(t)$ | store children as map[byte]*PrefixTree, recurse along children node until end of word. |
+| Trie | **Implement Trie** | $O(n)$ | $O(t)$ | store children as map[byte]*PrefixTree, recurse along children node until end of word. |
+| Trie | **Design Add Search Words** | $O(n)$ | $O(t+n)$ | helper function for parsing, recurse for wildcard '.' and return true when match. |
 
-> *Total Solved: 56 / 150*
+> *Total Solved: 57 / 150*
 
 ## ⚙️ Systems Design
 
