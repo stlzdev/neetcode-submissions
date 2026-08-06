@@ -65,8 +65,9 @@
 | Backtracking | **Palindrome Partitioning** | $O(n*2^n)$ | $O(n)$ | backtrack, at each start idx, try every cut pt end, check if palindrome. |
 | Trie | **Implement Trie** | $O(n)$ | $O(t)$ | store children as map[byte]*PrefixTree, recurse along children node until end of word. |
 | Trie | **Design Add Search Words** | $O(n)$ | $O(t+n)$ | helper function for parsing, recurse for wildcard '.' and return true when match. |
+| Graphs | **Number of Islands** | $O(m*n)$ | $O(m*n)$ | iterate across all cells, apply dfs at val=1 and reset cells val->0 once parsed. |
 
-> *Total Solved: 57 / 150*
+> *Total Solved: 58 / 150*
 
 ## ⚙️ Systems Design
 
