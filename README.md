@@ -67,8 +67,9 @@
 | Trie | **Design Add Search Words** | $O(n)$ | $O(t+n)$ | helper function for parsing, recurse for wildcard '.' and return true when match. |
 | Graphs | **Number of Islands** | $O(m*n)$ | $O(m*n)$ | iterate across all cells, apply dfs at val=1 and reset cells val->0 once parsed. |
 | Graphs | **Max Area of Island** | $O(m*n)$ | $O(m*n)$ | dfs helper returns area as int. |
+| Graphs | **Clone Graph** | $O(m+n)$ | $O(n)$ | call dfs on node, hmap stores old->new node, return clone if exist, or clone all neighbors. |
 
-> *Total Solved: 59 / 150*
+> *Total Solved: 60 / 150*
 
 ## ⚙️ Systems Design
 
