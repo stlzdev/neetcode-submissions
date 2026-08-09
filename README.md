@@ -68,8 +68,9 @@
 | Graphs | **Number of Islands** | $O(m*n)$ | $O(m*n)$ | iterate across all cells, apply dfs at val=1 and reset cells val->0 once parsed. |
 | Graphs | **Max Area of Island** | $O(m*n)$ | $O(m*n)$ | dfs helper returns area as int. |
 | Graphs | **Clone Graph** | $O(m+n)$ | $O(n)$ | call dfs on node, hmap stores old->new node, return clone if exist, or clone all neighbors. |
+| Graphs | **Walls and Gates** | $O(m*n)$ | $O(m*n)$ | multi-source BFS, append neighbors to queue and add dist by 1. |
 
-> *Total Solved: 60 / 150*
+> *Total Solved: 61 / 150*
 
 ## ⚙️ Systems Design
 
