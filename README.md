@@ -70,8 +70,10 @@
 | Graphs | **Clone Graph** | $O(m+n)$ | $O(n)$ | call dfs on node, hmap stores old->new node, return clone if exist, or clone all neighbors. |
 | Graphs | **Walls and Gates** | $O(m*n)$ | $O(m*n)$ | multi-source BFS, append neighbors to queue and add dist by 1. |
 | Graphs | **Rotting Fruit** | $O(m*n)$ | $O(m*n)$ | per-layer BFS, iterate within each layer to process only cells rotten at given time. |
+| Graphs | **Pacific Atlantic Water Flow** | $O(m*n)$ | $O(m*n)$ | multi-source BFS from all coasts, two [][]bool arrays for tracking reachable cells. | 
+| Graphs | **Surrounded Regions** | $O(m*n)$ | $O(m*n)$ | fill all 'O' reachable from edges with temp 'V', then traverse twice to convert remaining to 'X'. |
 
-> *Total Solved: 62 / 150*
+> *Total Solved: 64 / 150*
 
 ## ⚙️ Systems Design
 
