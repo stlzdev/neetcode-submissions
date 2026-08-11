@@ -72,8 +72,9 @@
 | Graphs | **Rotting Fruit** | $O(m*n)$ | $O(m*n)$ | per-layer BFS, iterate within each layer to process only cells rotten at given time. |
 | Graphs | **Pacific Atlantic Water Flow** | $O(m*n)$ | $O(m*n)$ | multi-source BFS from all coasts, two [][]bool arrays for tracking reachable cells. | 
 | Graphs | **Surrounded Regions** | $O(m*n)$ | $O(m*n)$ | fill all 'O' reachable from edges with temp 'V', then traverse twice to convert remaining to 'X'. |
+| Graphs | **Course Schedule** | $O(m+n)$ | $O(m+n)$ | adj list, parse and mark visited nodes, true if no cycle. | 
 
-> *Total Solved: 64 / 150*
+> *Total Solved: 65 / 150*
 
 ## ⚙️ Systems Design
 
