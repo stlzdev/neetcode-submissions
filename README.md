@@ -73,8 +73,12 @@
 | Graphs | **Pacific Atlantic Water Flow** | $O(m*n)$ | $O(m*n)$ | multi-source BFS from all coasts, two [][]bool arrays for tracking reachable cells. | 
 | Graphs | **Surrounded Regions** | $O(m*n)$ | $O(m*n)$ | fill all 'O' reachable from edges with temp 'V', then traverse twice to convert remaining to 'X'. |
 | Graphs | **Course Schedule** | $O(m+n)$ | $O(m+n)$ | adj list, parse and mark visited nodes, true if no cycle. | 
+| 1-D DP | **Climbing Stairs** | $O(n)$ | $O(1)$ | keep two variables, Fibonacci idea. |
+| 1-D DP | **Min Cost Climbing Stairs** | $O(n)$ | $O(1)$ | bottom-up, min optim. |
+| 1-D DP | **House Robber** | $O(n)$ | $O(1)$ | modify in-place, bottom-up. |
+| 1-D DP | **House Robber II** | $O(n)$ | $O(n)$ | two dp calls, one 1:n and one 0:n-1. |
 
-> *Total Solved: 65 / 150*
+> *Total Solved: 69 / 150*
 
 ## ⚙️ Systems Design
 
