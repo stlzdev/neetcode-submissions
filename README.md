@@ -77,8 +77,9 @@
 | 1-D DP | **Min Cost Climbing Stairs** | $O(n)$ | $O(1)$ | bottom-up, min optim. |
 | 1-D DP | **House Robber** | $O(n)$ | $O(1)$ | modify in-place, bottom-up. |
 | 1-D DP | **House Robber II** | $O(n)$ | $O(n)$ | two dp calls, one 1:n and one 0:n-1. |
+| 1-D DP | **Decode Ways** | $O(n)$ | $O(n)$ | memoization to store calculated values. convert str to int via strconv.Atoi. | 
 
-> *Total Solved: 69 / 150*
+> *Total Solved: 70 / 150*
 
 ## ⚙️ Systems Design
 
