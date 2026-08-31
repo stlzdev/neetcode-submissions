@@ -94,6 +94,7 @@
 | **Design Rate Limiter** | Gateway/Edge with state sharing, extract per API/IP/tenant, token bucket algo, same counter in Redis. |
 | **Design Comment System** | Comment database (NoSQL) + user database (DBMS), sharding, Redis for cache, Time-to-Live indexes for deleting expired posts. |
 | **Design Dropbox** | Upload file chunks via multi-chunk, download large files directly via S3. Blob storage for files, DynamoDB for metadata. **DELTA SYNCING**: store chunk hashes in DB to handle network interruptions, download changed chunks and stitch on client side. |
+| **Design Instagram** | Fan out on read (celebrity accounts) vs fan out on write (regular accounts). 
 
-> *Total Solved: 7 / 19*
+> *Total Solved: 8 / 19*
 
