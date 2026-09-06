@@ -80,8 +80,9 @@
 | 1-D DP | **House Robber II** | $O(n)$ | $O(n)$ | two dp calls, one 1:n and one 0:n-1. |
 | 1-D DP | **Decode Ways** | $O(n)$ | $O(n)$ | memoization to store calculated values. convert str to int via strconv.Atoi. | 
 | 1-D DP | **Coin Change** | $O(n*t)$ | $O(t)$ | pre-store count as MaxInt32, then find min no for each possible value. |
+| 1-D DP | **Maximum Product Subarray** | $O(n)$ | $O(1) | track curr max and min, since neg values exist. Kadane's algo. |
 
-> *Total Solved: 72 / 150*
+> *Total Solved: 73 / 150*
 
 ## ⚙️ Systems Design
 
