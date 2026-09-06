@@ -98,6 +98,7 @@
 | **Design Dropbox** | Upload file chunks via multi-chunk, download large files directly via S3. Blob storage for files, DynamoDB for metadata. **DELTA SYNCING**: store chunk hashes in DB to handle network interruptions, download changed chunks and stitch on client side. |
 | **Design Instagram** | Fan out on read (celebrity accounts) vs fan out on write (regular accounts). |
 | **Design Facebook News Feed** | PUT over POST for idempotency, async worker pool for fan out on write, store feeds in DynamoDB. |
+| **Design Dating App** | match is not an endpoint, just an effect of mutual swipe. APN and FCM for push notifs. Redis is ATOMIC, single-thread. Elastic search for geospatial data. endpoint only request dynamic values, no user id (JWT auth). |
 
-> *Total Solved: 9 / 19*
+> *Total Solved: 10 / 19*
 
