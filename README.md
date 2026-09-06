@@ -29,6 +29,7 @@
 | Binary Search | **Koko Eating Bananas** | $O(nlog m)$ | $O(1)$ | $$\left\lceil \frac{val}{m} \right\rceil = \left\lfloor \frac{val + m - 1}{m} \right\rfloor$$, manual max of array. |
 | Binary Search | **Finding Minimum in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | Update lpt to m+1 instead of m. |
 | Binary Search | **Search in Rotated Sorted Array** | $O(log n)$ | $O(1)$ | At any time, one half of array is sorted. |
+| Binary Search | **Median of Two Sorted Arrays** | $O(log (m+n))$ | $O(1)$ | track amount of el left of partition for shorter array. binary search for correct partition. set default of aLeft, aRight, bLeft, bRight to infinity for edge cases. |
 | Linked List | **Reverse Linked List** | $O(n)$ | $O(1)$ | Declare nil with type, e.g. `(*ListNode)(nil)`. Use next (temp), prev=curr, curr=next pointers. |
 | Linked List | **Merge Two Sorted Lists** | $O(n)$ | $O(1)$ | Dummy variable `&ListNode{}`, assign as curr. Iterate pointer as min of two array add to Next. |
 | Linked List | **Linked List Cycle** | $O(n)$ | $O(1)$ | Fast-slow pointer, gap between pointers always decrease by 1, max at length so time $O(n)$ bounded. |
@@ -82,7 +83,7 @@
 | 1-D DP | **Coin Change** | $O(n*t)$ | $O(t)$ | pre-store count as MaxInt32, then find min no for each possible value. |
 | 1-D DP | **Maximum Product Subarray** | $O(n)$ | $O(1) | track curr max and min, since neg values exist. Kadane's algo. |
 
-> *Total Solved: 73 / 150*
+> *Total Solved: 74 / 150*
 
 ## ⚙️ Systems Design
 
